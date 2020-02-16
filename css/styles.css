@@ -6,8 +6,6 @@ body {
 	font-weight: 400;
 	line-height: 24px;
 	color: #787878;
-	width: 1366px;
-	margin: 0 auto;
 }
 
 * {
@@ -106,13 +104,13 @@ body {
 }
 
 
-.company {
+.footer__company {
 	font-size: 18px;
 	margin-bottom: 27px;
 	color: #fff;
 }
 
-.footer__copyright {
+.footer__column-copyright {
 	margin-right: 246px;
 	width: 225px;
 }
