@@ -6,6 +6,8 @@ body {
 	font-weight: 400;
 	line-height: 24px;
 	color: #787878;
+	width: 1366px;
+	margin: 0 auto;
 }
 
 * {
@@ -88,10 +90,60 @@ body {
 	width: calc(50% - 15px);
 }
 
-
 .footer {
 	background-color: #141414;
 	color: white;
 	padding-top: 100px;
 	padding-bottom: 100px;
+	color: #bcbcbc;
+}
+
+.footer__columns {
+	display: flex;
+	justify-content: flex-start;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+
+.company {
+	font-size: 18px;
+	margin-bottom: 27px;
+	color: #fff;
+}
+
+.footer__copyright {
+	margin-right: 246px;
+	width: 225px;
+}
+
+.footer__column-contacts {
+	width: 163px;
+	margin-right: 145px;
+}
+
+.footer__links {
+	margin-right: 55px;
+}
+
+.footer__links-list {
+	padding-inline-start: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.footer__link {
+	color: #bcbcbc;
+	text-decoration: none;
+}
+
+.footer__column-social {
+	margin-left: auto;
+	margin-right: 33px;
+}
+
+.footer__links-social {
+	margin: 0;
+	list-style: none;
+	padding-inline-start: 0;
 }
